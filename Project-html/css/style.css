@@ -1,0 +1,88 @@
+*{
+    font-family: "Moulpali", sans-serif;
+
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: purple;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+li{
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+.introduction{
+    display: flex;
+    
+
+}
+/* .description{
+    text-align: center;
+} */
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.company-logo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.company-logo img{
+    max-width: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.item img{
+    width: 100%;
+}
+footer{
+    width: 100vw;
+    height: 40vh;
+    background-color: #fff;
+    
+}
+.con-footer{
+    justify-content: center;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
